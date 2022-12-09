@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Boxicons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- My CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<title>AdminHub</title>
+</head>
+<body>
+	<!-- SIDEBAR -->
+	<section class="sidebar">
+		<a href="#" class="brand">
+            <i class="fa fa-smile-o" aria-hidden="true"></i>
+			<span class="text">Dashboard</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="form.html">
+                    <i class="fa fa-tachometer" aria-hidden="true"></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href= "regex-form.html">
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+					<span class="text">My Store</span>
+				</a>
+			</li>
+			<li>
+				<a href="form.html">
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+					<span class="text">Analytics</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+                    <i class="fa fa-commenting-o" aria-hidden="true"></i>
+					<span class="text">Message</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+                    <i class="fa fa-users" aria-hidden="true"></i>
+					<span class="text">Team</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+	<!-- CONTENT -->
+	<section class="content">
+		<!-- NAVBAR -->
+		<nav>
+			<a href="#" class="nav-link">Categories</a>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"> <i class="fa fa-search" aria-hidden="true"></i></button>
+				</div>
+			</form>
+			<a href="#" class="notification">
+                <i class="fa fa-bell" aria-hidden="true"></i>
+				<span class="num">17</span>
+			</a>
+			<a href="#" class="profile">
+				<img src="IMAGES/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.webp">
+			</a>
+		</nav>
+		<!-- NAVBAR -->
+		<!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Dashboard</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#">Dashboard</a>
+						</li>
+						 
+						<i class="fa fa-chevron-right" aria-hidden="true"></i>
+						<li>
+							<a class="active" href="#">Home</a>
+						</li>
+					</ul>
+				</div>
+				 
+			</div>
+			<ul class="box-info">
+				<li>
+					 <i class="fa fa-calendar" aria-hidden="true"></i>
+					<span class="text">
+						<h3>1020</h3>
+						<p>New Order</p>
+					</span>
+				</li>
+				<li>
+					<i class="fa fa-users" aria-hidden="true"></i>
+					<span class="text">
+						<h3>2834</h3>
+						<p>Visitors</p>
+					</span>
+				</li>
+				<li>
+					<i class="fa fa-usd" aria-hidden="true"></i>
+					<span class="text">
+						<h3>$2543</h3>
+						<p>Total Sales</p>
+					</span>
+				</li>
+			</ul>
+			<div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>Recent Orders</h3>
+						<i class="fa fa-search" aria-hidden="true"></i>
+						<i class="fa fa-filter" aria-hidden="true"></i>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>User</th>
+								<th>Date Order</th>
+								<th>Status</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<img src="IMAGES/1.jpg">
+									<p>Simran doseja</p>
+								</td>
+								<td>03-10-2021</td>
+								<td><span class="status completed">Completed</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="IMAGES/2.jpg">
+									<p>Aman kosik</p>
+								</td>
+								<td>02-05-2021</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="IMAGES/3.webp">
+									<p>Rahul tripathi</p>
+								</td>
+								<td>01-10-2021</td>
+								<td><span class="status process">Process</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="IMAGES/4.jpg">
+									<p>Shivam dube</p>
+								</td>
+								<td>03-11-2021</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="IMAGES/5.jpg">
+									<p>Rohit sharma</p>
+								</td>
+								<td>01-12-2021</td>
+								<td><span class="status completed">Completed</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="todo">
+					<div class="head">
+						<h3>Todos</h3>
+						<i class="fa fa-plus" aria-hidden="true"></i>
+						<i class="fa fa-filter" aria-hidden="true"></i>
+					</div>
+					<ul class="todo-list">
+						<li class="completed">
+							<p>Todo List1</p>
+							<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+						</li>
+						<li class="completed">
+							<p>Todo List2</p>
+							<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+						</li>
+						<li class="not-completed">
+							<p>Todo List3</p>
+							<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+						</li>
+						<li class="completed">
+							<p>Todo List4</p>
+							<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+						</li>
+						<li class="not-completed">
+							<p>Todo List5</p>
+							<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>HTML CSS Form Validation | 	webdevtrick.com</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body onload="onloadstore()">
+ 
+	<form action="#0">
+		<div>
+			
+			<input type="text" name="firstname" id="firstname" placeholder=" " required>
+			<label for="firstname">First name</label>
+		</div>
+		<div>
+		
+			<input type="text" name="lastname" id="lastname" placeholder=" " required>
+			<label for="lastname">Last name</label>
+		</div>
+		<div>
+			
+			<input type="tel" name="tel" id="tel" placeholder=" "
+			pattern="^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$" required>
+			<label for="tel">Phone No.</label>
+			<div class="requirements"> Must be a valid Phone Number!</div>
+		</div>
+
+	 
+			
+		
+		<input type="radio" id="male" value="male" name="gender">
+		<input type="radio" id="female" value="female" name="gender">
+		 
+
+
+
+	
+		 <button type="button"> submit</button>
+	</form>
+  
+
+	 <script>
+
+function onloadstore(){
+	 
+   var gertfullname= sessionStorage.getItem('firstname');
+   var gertlastname= sessionStorage.getItem('lastname');
+   var gertmoblname= sessionStorage.getItem('tel');
+   var gertmale= sessionStorage.getItem('male');
+   var gertfemale= sessionStorage.getItem('female');
+
+
+    document.getElementById("firstname").value = gertfullname;
+	 document.getElementById("lastname").value = gertlastname;
+ document.getElementById("tel").value = gertmoblname;
+ document.getElementById("male").value = gertmale;
+ document.getElementById("female").value = gertfemale;
+}
+ 
+	 </script>
+  
+</body>
+</html>
